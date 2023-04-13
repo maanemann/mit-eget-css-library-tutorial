@@ -1,0 +1,192 @@
+.test-btn {
+  background-color: rgb(250, 165, 165);
+}
+
+.test-btn {
+  background-color: rgb(250, 165, 165);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  display: block;
+}
+
+body {
+  background-color: rgb(171, 109, 64);
+  display: grid;
+  height: 100vh;
+}
+body .dreamdoor {
+  grid-area: 1/-1/1/-1;
+  justify-self: center;
+  align-self: center;
+  color: rgb(113, 29, 29);
+  font-size: 30vw;
+}
+body .dreamdoor span {
+  background-color: rgb(53, 55, 36);
+  color: rgb(109, 231, 166);
+  box-shadow: 0 0 2vw 2vw rgba(122, 147, 101, 0.673);
+  border-radius: 4vw;
+}
+
+img {
+  max-width: 100%;
+}
+
+ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+hr {
+  border: 0;
+  border-top: 1px dotted #efefef;
+}
+
+.text-brown1 {
+  color: rgb(171, 109, 64);
+}
+
+.bg-brown1 {
+  background-color: rgb(171, 109, 64);
+}
+
+.text-brown2 {
+  color: rgb(113, 29, 29);
+}
+
+.bg-brown2 {
+  background-color: rgb(113, 29, 29);
+}
+
+.text-aqua1 {
+  color: rgb(109, 231, 166);
+}
+
+.bg-aqua1 {
+  background-color: rgb(109, 231, 166);
+}
+
+.text-aqua2 {
+  color: rgba(122, 147, 101, 0.673);
+}
+
+.bg-aqua2 {
+  background-color: rgba(122, 147, 101, 0.673);
+}
+
+.text-aqua3 {
+  color: rgb(53, 55, 36);
+}
+
+.bg-aqua3 {
+  background-color: rgb(53, 55, 36);
+}
+
+.text-blue {
+  color: rgb(41, 108, 241);
+}
+
+.bg-blue {
+  background-color: rgb(41, 108, 241);
+}
+
+.text-green {
+  color: rgb(51, 196, 85);
+}
+
+.bg-green {
+  background-color: rgb(51, 196, 85);
+}
+
+.text-yellow {
+  color: rgb(232, 255, 85);
+}
+
+.bg-yellow {
+  background-color: rgb(232, 255, 85);
+}
+
+.text-orange {
+  color: chocolate;
+}
+
+.bg-orange {
+  background-color: chocolate;
+}
+
+.text-red {
+  color: rgb(193, 65, 65);
+}
+
+.bg-red {
+  background-color: rgb(193, 65, 65);
+}
+
+.text-pink {
+  color: rgb(250, 165, 165);
+}
+
+.bg-pink {
+  background-color: rgb(250, 165, 165);
+}
+
+.text-purple {
+  color: rgb(177, 67, 151);
+}
+
+.bg-purple {
+  background-color: rgb(177, 67, 151);
+}
+
+.text-black {
+  color: rgb(26, 28, 27);
+}
+
+.bg-black {
+  background-color: rgb(26, 28, 27);
+}
+
+.text-gray {
+  color: rgb(115, 124, 115);
+}
+
+.bg-gray {
+  background-color: rgb(115, 124, 115);
+}
+
+.text-white {
+  color: rgb(249, 248, 238);
+}
+
+.bg-white {
+  background-color: rgb(249, 248, 238);
+}
+
+.card {
+  padding: 0.75rem;
+  border: 1px solid #ddd;
+  box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+.card .card-title {
+  font-size: 2rem;
+  padding-bottom: 0.75rem;
+  font-weight: bold;
+}
+.card .card-body {
+  font-size: 1rem;
+}
+.card .card-body a {
+  text-decoration: underline;
+}/*# sourceMappingURL=index.css.map */

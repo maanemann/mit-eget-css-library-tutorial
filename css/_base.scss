@@ -1,0 +1,51 @@
+//
+// --- MAIN ---
+
+// "_" i starten af filnavn betyder den ikke skal compiles til css, (fordi den linkes til i index.(s)css (mm), ikke direkte til html'en, og altså bliver brugt indirekte, kan man sige).
+
+@import 'variables';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img {
+    display: block;
+}
+body {
+    background-color: $brown1;
+    display: grid;
+    height: 100vh;
+    .dreamdoor {
+        grid-area: 1/-1/1/-1;
+        justify-self: center;
+        align-self: center;
+        color: $brown2;
+        font-size: 30vw;
+        span {
+            background-color: $aqua3;
+            color: $aqua1;
+            box-shadow: 0 0 $nicesize $nicesize $aqua2;
+            border-radius: calc($nicesize * 2);
+        }
+    }
+}
+
+// Der var nogle flere regler net ninja skrev her, som jeg ikke lige fik med -- og det ovenfor er mit eget..
+
+img {
+    max-width: 100%;
+}
+ul {
+    padding: 0;
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+}
+hr {
+    border: 0;
+    border-top: 1px dotted #efefef;
+}
+

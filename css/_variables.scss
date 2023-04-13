@@ -1,0 +1,72 @@
+//
+
+// Palette
+
+$brown1: rgb(171, 109, 64);
+$brown2: rgb(113, 29, 29);
+$aqua1: rgb(109, 231, 166);
+$aqua2: rgba(122, 147, 101, 0.673);
+$aqua3: rgb(53, 55, 36);
+
+
+// More colors (det her er en 'map'(?) sammenlignes med (arrays og) objects)
+
+$colors: (
+    "brown1": $brown1,
+    "brown2": $brown2,
+    "aqua1": $aqua1,
+    "aqua2": $aqua2,
+    "aqua3": $aqua3,
+    "blue": rgb(41, 108, 241),
+    "green": rgb(51, 196, 85),
+    "yellow": rgb(232, 255, 85),
+    "orange": chocolate,
+    "red": rgb(193, 65, 65),
+    "pink": rgb(250, 165, 165),
+    "purple": rgb(177, 67, 151),
+    "black": rgb(26, 28, 27),
+    "gray": rgb(115, 124, 115),
+    "white": rgb(249, 248, 238)
+);
+
+
+// debug som ikke virker..? (men gode eksempler på hvad man kan)
+@debug map-get($colors, "green");
+@debug map-has-key($colors, "brown1");
+@debug map-has-key($colors, "dette-vil-returnere-false");
+@debug map-remove($colors, "brown1");
+// Tilføj til map:
+@debug map-merge($colors, ("wasabi": #8df0b5));
+
+
+// Sådan kan en map (som den ovenfor) bruges
+.test-btn {
+    background-color: map-get($colors, "pink");
+}
+
+
+// Spacing
+
+$nicesize: 2vw;
+$base-padding: .75rem;
+$base-margin: .75rem;
+
+
+// Borders
+
+$base-border-thickness: 1px;
+$base-border-radius: 20px;
+
+
+// Box-shadow
+
+$base-box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
+
+
+// Font-seizes
+
+$base-font-size: 1rem;
+$font-size-sm: $base-font-size * .75;
+$font-size-lg: $base-font-size * 1.5;
+$font-size-xl: $base-font-size * 2;
+$font-size-xxl: $base-font-size * 3;
